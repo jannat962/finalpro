@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WANDERLUST</title>
+<style>
+    /* Reset CSS */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        color: #333;
+    }
+    /* Header */
+    header {
+        background-color: #ffffff;
+        padding: 20px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    nav {
+        background-color: #93b1f6;
+        color: #1e0202;
+        padding: 30px 3px ;
+        text-align: center;
+        margin: auto;
+    }
+    nav a {
+        color: #ede2e2;
+        text-decoration: none;
+        padding:  10px;
+    }
+    nav a:hover {
+        text-decoration: underline;
+    }
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+    header h1 {
+        font-size: 24px;
+        color: #333;
+    }
+    /* Hero Section */
+    .hero {
+        background-image: url('https://via.placeholder.com/1500x500');
+        background-size: cover;
+        background-position: center;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: #ffffff;
+        
+    }
+    .hero img{
+        width: 1500px;
+        height: 500px;
+        
+        
+    }
+    .hero h2 {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+    .hero p {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+    /* Listings Section */
+    .listings {
+        padding: 50px 0;
+        text-align: center;
+    }
+    .listings h2 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    .listings p {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+    .listings .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+    .listings .listing {
+        background-color: #ffffff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        overflow: hidden;
+    }
+    .listings .listing img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+    .listings .listing .info {
+        padding: 20px;
+    }
+    .listings .listing .info h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .listings .listing .info p {
+        font-size: 16px;
+    }
+    
+    /* Footer */
+    footer {
+        background-color: #93b1f6;
+        color: #382f2f;
+        text-align: center;
+        padding: 20px 0;
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1>WANDERLUST</h1>
+    </div>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Explore</a>
+        <a href="#">Host</a>
+        <a href="#">Sign Up</a>
+        <a href="#">Log In</a>
+    </nav>
+    
+</header>
+
+<section class="hero">
+    <div class="container">
+        <!-- <h2>Book Unique Homes and Experiences</h2> -->
+        <!-- <p>Explore top-rated stays, activities, and more.</p> -->
+        <img src="wallhaven-95e3rk_1280x720.png" alt="Listing 1">
+    </div>
+</section>
+
+<section class="listings">
+    <div class="container">
+        <h2>Featured Listings</h2>
+        <div class="grid">
+            <div class="listing">
+                <img src="wallhaven-0w238q_1280x960.png" alt="Listing 1">
+                <div class="info">
+                    <h3>Cozy Cabin</h3>
+                    <p>$100/night</p>
+                </div>
+            </div>
+            <div class="listing">
+                <img src="wallhaven-133m89_1280x960.png" alt="Listing 2">
+                <div class="info">
+                    <h3>Beach House</h3>
+                    <p>$150/night</p>
+                </div>
+            </div>
+            <div class="listing">
+                <img src="wallhaven-423gy9_1280x960.png" alt="Listing 3">
+                <div class="info">
+                    <h3>Mountain Retreat</h3>
+                    <p>$120/night</p>
+                </div>
+            </div>
+            <div class="listing">
+                <img src="wallhaven-4xqlov_1280x960.png" alt="Listing 3">
+                <div class="info">
+                    <h3>Garden and pool views</h3>
+                    <p>$150/night</p>
+                </div>
+            </div>
+            <div class="listing">
+                <img src="wallhaven-95e3rk_1280x960.png" alt="Listing 3">
+                <div class="info">
+                    <h3>Ocean views</h3>
+                    <p>$220/night</p>
+                </div>
+            </div>
+            <div class="listing">
+                <img src="wallhaven-mpp7py_1280x960.png" alt="Listing 3">
+                <div class="info">
+                    <h3>Vembanad Lake</h3>
+                    <p>$200/night</p>
+                </div>
+            </div>
+            
+            <div class="listing">
+                <img src="wallhaven-nz3okv_1280x960.png" alt="Listing 3">
+                <div class="info">
+                    <h3>Meeru Island</h3>
+                    <p>$120/night</p>
+                </div>
+            </div>
+            
+            <div class="listing">
+                <img src="wallhaven-odylop_1280x960.png" alt="Listing 3">
+                <div class="info">
+                    <h3>Kaafu Atoll</h3>
+                    <p>$120/night</p>
+                </div>
+            </div>
+             
+            <div class="listing">
+                <img src="wallhaven-nz3okv_1280x960.png" alt="Listing 3">
+                <div class="info">
+                    <h3>Feeali</h3>
+                    <p>$120/night</p>
+                </div>
+            </div>
+            
+
+
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2K24 WANDERLUST &#128158; Thank you for visiting</p>
+</footer>
+
+</body>
+</html>
